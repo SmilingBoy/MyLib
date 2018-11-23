@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="selbar">#2476f7</color>
+    <color name="divider">#e0e0e0</color>
+    <color name="colorGray1">#d1d1d1</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="ThmeColor">#e83632</color>
+
+</resources>

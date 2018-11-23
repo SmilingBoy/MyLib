@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="cpv_progressNormalColor" format="color"/>
+        <attr name="cpv_progressReachColor" format="color"/>
+        <attr name="cpv_progressTextColor" format="color"/>
+        <attr name="cpv_progressTextSize" format="dimension"/>
+        <attr name="cpv_progressTextOffset" format="dimension"/>
+        <attr name="cpv_progressNormalSize" format="dimension"/>
+        <attr name="cpv_progressReachSize" format="dimension"/>
+        <attr name="cpv_radius" format="dimension"/>
+        <attr name="cpv_progressTextVisible" format="boolean"/>
+        <attr name="cpv_progressStartArc" format="integer"/>
+        <attr name="cpv_progressTextSkewX" format="dimension"/>
+        <attr name="cpv_progressTextPrefix" format="string"/>
+        <attr name="cpv_progressTextSuffix" format="string"/>
+        <attr name="cpv_innerBackgroundColor" format="color"/>
+        <attr name="cpv_progressStyle" format="enum">
+            <enum name="Normal" value="0"/>
+            <enum name="FillInner" value="1"/>
+            <enum name="FillInnerArc" value="2"/>
+        </attr>
+        <attr name="cpv_innerProgressColor" format="color"/>
+        <attr name="cpv_innerPadding" format="dimension"/>
+        <attr name="cpv_outerColor" format="color"/>
+        <attr name="cpv_outerSize" format="dimension"/>
+        <attr name="cpv_reachCapRound" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioLayout">
+        <attr name="rl_picRatio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="inputBox">
+        <attr name="passwordCount" format="integer"/>
+        <attr name="stokeColor" format="color"/>
+        <attr name="symbolColor" format="color"/>
+        <attr name="symbolRadius" format="dimension"/>
+        <attr name="inputBoxStroke" format="dimension"/>
+
+    </declare-styleable>
+    <declare-styleable name="materialStatusProgressAttr">
+        <attr name="arcColor" format="reference|color"/>
+        <attr name="progressBarBorderWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScaleImageView">
+        <attr name="sc_ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="VerticalScrollTextView">
+        <attr name="vst_sleepTime" format="integer" />
+        <attr name="vst_animDuration" format="integer" />
+        <attr name="vst_textSize" format="dimension" />
+        <attr name="vst_textColor" format="color" />
+        <attr name="vst_singleLine" format="boolean" />
+        <attr name="vst_scrollOrientation">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="VerticalScrollLayout">
+        <attr name="vsl_animDuration" format="integer" />
+        <attr name="vsl_sleepTime" format="integer" />
+        <attr name="vsl_isCusDuration" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ZQTitleView">
+        <attr name="zq_titleText" format="string|reference" />
+        <attr name="zq_titleColor" format="color|reference" />
+        <attr name="zq_titltTextSize" format="dimension|reference" />
+        <attr name="zq_backBtnText" format="string|reference" />
+        <attr name="zq_backBtnTextColor" format="color|reference" />
+        <attr name="zq_backBtnTextSize" format="dimension|reference" />
+        <attr name="zq_ibtnBackIcon" format="color|reference" />
+        <attr name="zq_rightBtnText" format="string|reference" />
+        <attr name="zq_rightBtnTextColor" format="color|reference" />
+        <attr name="zq_rightBtnTextSize" format="dimension|reference" />
+        <attr name="zq_rightBackIcon" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchView">
+        <attr name="zq_hasShadow" format="boolean"/>
+        <attr name="zq_primaryColor" format="color"/>
+        <attr name="zq_primaryColorDark" format="color"/>
+        <attr name="zq_isOpened" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="XEditText">
+        <attr name="x_separator" format="string"/>
+        <attr name="x_disableClear" format="boolean"/>
+        <attr name="x_clearDrawable" format="reference"/>
+        <attr name="x_showPwdDrawable" format="reference"/>
+        <attr name="x_hidePwdDrawable" format="reference"/>
+        <attr name="x_disableEmoji" format="boolean"/>
+        <attr name="x_disableTogglePwdDrawable" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CustomProgressBar">
+        <attr name="progressColor" format="color"/>
+        <attr name="progressDescColor" format="color"/>
+        <attr name="progressRadius" format="dimension"/>
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="progressDesc" format="string"/>
+        <attr name="isShowDesc" format="boolean"/>
+    </declare-styleable>
+</resources>
